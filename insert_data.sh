@@ -95,5 +95,5 @@ do
     #get new round
     ROUNDID=$($PSQL "SELECT round FROM games WHERE round='$ROUND'")
   fi
-
+#this is a test to work with git locally so I dont have to use github interface
 done
